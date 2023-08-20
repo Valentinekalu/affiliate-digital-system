@@ -1,0 +1,32 @@
+squehub/
+├── sh-admin/
+│   ├── index.php
+│   └── ...
+├── sh-core/
+│   ├── sh-includes/
+│   ├── sh-repstate/
+│   ├── sh-route/ (New directory for routing classes)
+│   │   ├── CMS_Router.php (Abstract Routing Class)
+│   │   └── CMS_Default_Router.php (Concrete Routing Class)
+│   ├── sh-controller/ (New directory for controller classes)
+│   │   ├── CMS_Controller.php (Abstract Controller Class)
+│   │   ├── CMS_Page_Controller.php (Concrete Page Controller Class)
+│   │   ├── CMS_Post_Controller.php (Concrete Post Controller Class)
+│   │   └── ...
+│   └── ...
+├── sh-languages/
+├── sh-content/
+│   ├── themes/
+│   │   ├── default-theme/
+│   │   └── custom-theme/
+│   ├── plugins/
+│   │   └── custom-plugin/
+│   └── uploads/
+│       └── images/
+├── sh-cache/
+├── sh-public/
+│   ├── style.css
+│   └── ...
+├── index.php
+├── sh-config.php
+└── .htaccess
